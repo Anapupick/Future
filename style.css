@@ -1,0 +1,328 @@
+body,
+html {
+	overflow-x: hidden;
+}
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.nav {
+	display: flex;
+	gap: 20px;
+	z-index: 2;
+}
+
+.nav a {
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.nav span {
+	font-size: 17px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: calc(100% - 80px);
+	box-sizing: border-box;
+}
+
+.left-container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-container {
+	background: #fff;
+}
+
+.right-container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.left-container img {
+	width: 50%;
+}
+
+.right-container img {
+	position: relative;
+	left: 28px;
+	width: auto;
+}
+
+.logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+.text-section {
+	position: absolute;
+	width: 100%;
+	bottom: 40px;
+	left: 40px;
+	color: #000;
+}
+
+.text-section h1 {
+	position: relative;
+	font-family: 'Karantina', system-ui;
+	top: 55px;
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 0.85;
+	letter-spacing: 10px;
+}
+
+.text-section p {
+	position: absolute;
+	font-family: 'Karantina', system-ui;
+	left: 30%;
+	font-size: 16px;
+	top: 92%;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.button {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	width: 72px;
+	height: 72px;
+	background: #000;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.button img {
+	width: 50%;
+}
+
+.section-title {
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 135px;
+	left: 55px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.section-title span {
+	background-color: #d9d9d980;
+	backdrop-filter: blur(10%);
+	border-radius: 10px;
+	padding: 3px 10px;
+	z-index: 2;
+	letter-spacing: 1px;
+}
+
+.section-title img {
+	position: relative;
+	margin-left: -80px;
+	margin-bottom: -60px;
+	z-index: 0;
+	width: 166px;
+	height: 166px;
+}
+
+.ltbtn {
+	position: absolute;
+	top: 34%;
+	border-radius: 50%;
+	left: 4.7%;
+	height: 36px;
+	width: 36px;
+}
+
+.litbtn {
+	position: absolute;
+	top: 34%;
+	border-radius: 50%;
+	left: 6.35%;
+	height: 36px;
+	width: 36px;
+}
+.right-container .section-title {
+	left: unset;
+	right: 20px;
+}
+
+.logoimg {
+	height: 515px;
+	width: 440px;
+	z-index: 1;
+}
+
+.righside {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex-wrap: nowrap;
+}
+
+.circle {
+	position: absolute;
+	top: 18%;
+	left: 6%;
+	z-index: -1;
+	height: 371px;
+	width: 368px;
+	background-color: #fff;
+	border-radius: 100%;
+}
+.forceimage {
+	margin-left: 50px;
+	margin-top: 140px;
+	height: 400px;
+	width: 400px;
+	z-index: 1;
+}
+
+.othertext {
+	font-family: 'Karantina', system-ui;
+	position: absolute;
+	top: 55%;
+	left: 3%;
+	font-size: 11px;
+	letter-spacing: 5px;
+	font-weight: 400;
+}
+.othertext span {
+	letter-spacing: -1px;
+}
+
+.othertext a {
+	letter-spacing: 2px;
+}
+
+.buttonbtm {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: 89.5%;
+	left: 45%;
+	z-index: 3;
+}
+
+.scroll {
+	position: absolute;
+	color: white;
+	font-family: 'Karantina', system-ui;
+	z-index: 3;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	left: 52%;
+	top: 90%;
+}
+
+.grayshoes {
+	position: absolute;
+	right: 2%;
+	top: 9%;
+}
+
+.design {
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	color: white;
+	font-size: 32px;
+	font-weight: 400;
+	letter-spacing: 10px;
+	right: 3%;
+	top: 27%;
+}
+
+.kinjaz {
+	position: absolute;
+	z-index: 4;
+	right: 15%;
+	bottom: 21%
+}
+
+.feel {
+	font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 10px;
+	position: absolute;
+	color: white;
+	right: 2.5%;
+	bottom: 13.5%;
+}
+
+.about {
+	font-family: 'Russo One', sans-serif;
+	bottom: 8%;
+	right: 2%;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: white;
+	position: absolute;
+}
+
+.buttomright {
+	position: absolute;
+	transform: scale(0.9);
+	right: 5%;
+	bottom: 30%;
+}
+
+.someshit {
+	font-family: 'Russo One', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	position: absolute;
+	top: 10%;
+	font-size: 8px;
+	left: 5%;
+	z-index: 2;
+}
+
+ .someshit a {
+            color: black; /* Белый цвет текста */
+            text-decoration: none; /* Убирает подчеркивание */
+        }
